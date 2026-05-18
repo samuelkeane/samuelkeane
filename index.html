@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstName LastName</title>
+    <style>
+        /* ── Reset & Base ── */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+            font-size: 18px;
+            line-height: 1.7;
+            color: #333;
+            background: #fff;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* ── Layout ── */
+        main {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 4rem 1.5rem 6rem;
+        }
+
+        /* ── Typography ── */
+        h1 {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #111;
+            margin-bottom: 0.15rem;
+            letter-spacing: -0.01em;
+        }
+
+        .tagline {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #111;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        /* ── Links ── */
+        a {
+            color: #111;
+            text-decoration: underline;
+            text-decoration-color: #bbb;
+            text-underline-offset: 3px;
+            transition: text-decoration-color 0.15s;
+        }
+
+        a:hover {
+            text-decoration-color: #111;
+        }
+
+        /* ── Lists (writing section) ── */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 0.6rem;
+        }
+
+        .date {
+            font-size: 0.85rem;
+            color: #999;
+            margin-left: 0.4rem;
+        }
+
+        /* ── Links section ── */
+        .links {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        /* ── Divider ── */
+        hr {
+            border: none;
+            border-top: 1px solid #e5e5e5;
+            margin: 2.5rem 0;
+        }
+
+        /* ── Footer ── */
+        footer {
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            color: #999;
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 600px) {
+            body {
+                font-size: 17px;
+            }
+
+            main {
+                padding: 2.5rem 1.25rem 4rem;
+            }
+
+            h1 {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>FirstName LastName</h1>
+        <p class="tagline">Economics · Warwick · CFA Level I candidate</p>
+
+        <h2>About</h2>
+        <p>
+            I'm a first-year Economics student at the University of Warwick and a 
+            CFA Level I candidate sitting in August 2026. I'm interested in macro, 
+            credit, and equity research.
+        </p>
+        <p>
+            At Warwick I lead outreach for 
+            <a href="#">MFC Equity</a>, the university's student-run investment fund. 
+            This summer I'll be at 
+            <a href="#">Newbrook Capital Solutions</a>, followed by 
+            <a href="#">PwC</a> in September.
+        </p>
+
+        <h2>Writing</h2>
+        <ul>
+            <!-- Uncomment and update as pieces are published:
+            <li>
+                <a href="/writing/macro-credit-piece.pdf">Title of macro/credit piece</a>
+                <span class="date">Jul 2026</span>
+            </li>
+            <li>
+                <a href="/writing/stock-pitch-one.pdf">Stock Pitch: Company Name</a>
+                <span class="date">Aug 2026</span>
+            </li>
+            -->
+            <li><em>Pieces coming summer 2026.</em></li>
+        </ul>
+
+        <h2>Links</h2>
+        <div class="links">
+            <a href="/cv.pdf">CV</a>
+            <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+            <a href="mailto:your.email@warwick.ac.uk">Email</a>
+        </div>
+
+        <!--
+        <h2>Now</h2>
+        <p>
+            Finishing first-year exams. Preparing for the CFA Level I in August.
+            Reading [book title] and [book title].
+        </p>
+        -->
+
+        <hr>
+
+        <footer>
+            &copy; 2026
+        </footer>
+    </main>
+</body>
+</html>
