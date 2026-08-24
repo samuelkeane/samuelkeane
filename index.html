@@ -1,182 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samuel Keane</title>
-    <style>
-        /* ── Reset & Base ── */
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
-            font-size: 18px;
-            line-height: 1.7;
-            color: #333;
-            background: #fff;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        /* ── Layout ── */
-        main {
-            max-width: 680px;
-            margin: 0 auto;
-            padding: 4rem 1.5rem 6rem;
-        }
-
-        /* ── Typography ── */
-        h1 {
-            font-size: 1.6rem;
-            font-weight: 600;
-            color: #111;
-            margin-bottom: 0.15rem;
-            letter-spacing: -0.01em;
-        }
-
-        .tagline {
-            font-size: 1rem;
-            color: #666;
-            margin-bottom: 2.5rem;
-        }
-
-        h2 {
-            font-size: 1rem;
-            font-weight: 600;
-            color: #111;
-            text-transform: uppercase;
-            letter-spacing: 0.06em;
-            margin-top: 2.5rem;
-            margin-bottom: 0.75rem;
-        }
-
-        p {
-            margin-bottom: 1rem;
-        }
-
-        /* ── Links ── */
-        a {
-            color: #111;
-            text-decoration: underline;
-            text-decoration-color: #bbb;
-            text-underline-offset: 3px;
-            transition: text-decoration-color 0.15s;
-        }
-
-        a:hover {
-            text-decoration-color: #111;
-        }
-
-        /* ── Lists (writing section) ── */
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        ul li {
-            margin-bottom: 0.6rem;
-        }
-
-        .date {
-            font-size: 0.85rem;
-            color: #999;
-            margin-left: 0.4rem;
-        }
-
-        /* ── Links section ── */
-        .links {
-            display: flex;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-        }
-
-        /* ── Divider ── */
-        hr {
-            border: none;
-            border-top: 1px solid #e5e5e5;
-            margin: 2.5rem 0;
-        }
-
-        /* ── Footer ── */
-        footer {
-            margin-top: 3rem;
-            font-size: 0.85rem;
-            color: #999;
-        }
-
-        /* ── Responsive ── */
-        @media (max-width: 600px) {
-            body {
-                font-size: 17px;
-            }
-
-            main {
-                padding: 2.5rem 1.25rem 4rem;
-            }
-
-            h1 {
-                font-size: 1.4rem;
-            }
-        }
-    </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samuel Keane</title>
+<style>
+  body {
+    font-family: "Times New Roman", Times, serif;
+    max-width: 720px;
+    margin: 2.5em auto;
+    padding: 0 1.25em;
+    color: #000;
+    background: #fff;
+    font-size: 17px;
+    line-height: 1.45;
+  }
+  a:link    { color: #0000EE; }
+  a:visited { color: #551A8B; }
+  a:hover   { text-decoration: none; }
+  h1 {
+    text-align: center;
+    font-size: 1.6em;
+    margin-bottom: 1.5em;
+    letter-spacing: 0.02em;
+  }
+  h2 {
+    font-size: 1.15em;
+    margin-top: 1.8em;
+    margin-bottom: 0.5em;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #999;
+    margin: 1.5em 0;
+  }
+  .links-row a { margin-right: 1em; }
+  footer {
+    margin-top: 3em;
+    font-size: 0.85em;
+  }
+</style>
 </head>
 <body>
-    <main>
-        <h1>Samuel Keane</h1>
-        <p class="tagline">Economics · Warwick · CFA Level I candidate</p>
 
-        <h2>About</h2>
-        <p>
-            I'm a second-year Economics student at the University of Warwick and a 
-            CFA Level I candidate awaiting results. I'm interested in macro, 
-            credit, and equity research.
-        </p>
-        <p>
-            At Warwick I lead outreach for 
-            <a href="#">MFC Equity</a>, a student investment society.
-        </p>
+<h1>Samuel Keane</h1>
 
-        <h2>Writing</h2>
-        <ul>
-            <!-- Uncomment and update as pieces are published:
-            <li>
-                <a href="/writing/macro-credit-piece.pdf">Title of macro/credit piece</a>
-                <span class="date">Jul 2026</span>
-            </li>
-            <li>
-                <a href="/writing/stock-pitch-one.pdf">Stock Pitch: Company Name</a>
-                <span class="date">Aug 2026</span>
-            </li>
-            -->
-            <li><em>Pieces coming summer 2026.</em></li>
-        </ul>
+<hr>
 
-        <h2>Links</h2>
-        <div class="links">
-            <a href="/CV_SamuelKeane.pdf">CV</a>
-            <a href="https://www.linkedin.com/in/samuel-keane06/">LinkedIn</a>
-            <a href="mailto:samuelmkeane@outlook.com">Email</a>
-        </div>
+<h2>About</h2>
+<p>
+  I'm a rising second-year Economics student at the University of Warwick
+  and a CFA Level I candidate awaiting results. I'm interested in macro,
+  credit, and equity research.
+</p>
+<p>
+  At Warwick I lead outreach for MFC Equity, a student investment society.
+</p>
 
-        <!--
-        <h2>Now</h2>
-        <p>
-            Finishing first-year exams. Preparing for the CFA Level I in August.
-            Reading [book title] and [book title].
-        </p>
-        -->
+<h2>Writing</h2>
+<p><em>Pieces coming Autumn 2026.</em></p>
 
-        <hr>
+<h2>Links</h2>
+<p class="links-row">
+  <a href="https://samuelkeane.com/CV_SamuelKeane.pdf">CV</a>
+  <a href="https://www.linkedin.com/in/samuel-keane06/">LinkedIn</a>
+  <a href="mailto:samuelmkeane@outlook.com">Email</a>
+</p>
 
-        <footer>
-            &copy; 2026
-        </footer>
-    </main>
+<hr>
+
+<footer>
+  &copy; 2026 Samuel Keane &middot; Last updated August 2026
+</footer>
+
 </body>
 </html>
